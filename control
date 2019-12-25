@@ -1,0 +1,12 @@
+Package: me.shymemoriees.cat
+Name: Cat Beta
+Depends: mobilesubstrate, firmware (>= 12), ws.hbang.common (>= 1.14)
+Version: 1.0-beta
+Architecture: iphoneos-arm
+Description: Every Cat Has Her/His Own Sounding Meow, So Why Not Your Keyboard As Well?
+Maintainer: ShyMemoriees <shymemoriees@yahoo.com>
+Author: ShyMemoriees <shymemoriees@yahoo.com>
+Section: Tweaks
+Depiction: https://repo.shymemoriees.me/depictions/cat/index.html
+SileoDepiction: https://repo.shymemoriees.me/depictions/cat/cat.json
+Icon: https://repo.shymemoriees.me/depictions/cat/assets/icon.png

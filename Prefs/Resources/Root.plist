@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+
+		<dict>
+            <key>action</key>
+            <string>twitterShy</string>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>@ShyMemoriees</string>
+            <key>cellClass</key>
+            <string>HBTwitterCell</string>
+            <key>label</key>
+            <string>ShyMemoriees</string>
+            <key>user</key>
+            <string>ShyMemoriees</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.shymemoriees.catpreferences</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>label</key>
+			<string>Enabled (Respring required)</string>
+			<key>PostNotification</key>
+			<string>me.shymemoriees.catpreferences/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Play Sound When Ringer Is Muted?</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>me.shymemoriees.catpreferences</string>
+			<key>key</key>
+			<string>playWhenMuted</string>
+			<key>label</key>
+			<string>When Ringer Is Muted</string>
+			<key>PostNotification</key>
+			<string>me.shymemoriees.catpreferences/ReloadPrefs</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Custom Keyboard Sound?</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.shymemoriees.catpreferences</string>
+			<key>key</key>
+			<string>customSoundSwitch</string>
+			<key>label</key>
+			<string>Custom Sound</string>
+			<key>PostNotification</key>
+			<string>me.shymemoriees.catpreferences/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>defaults</key>
+			<string>me.shymemoriees.catpreferences</string>
+			<key>label</key>
+			<string>Keyboard Sound:</string>
+			<key>key</key>
+			<string>soundFile</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>iOS 6</string>
+				<string>Nintendo Switch</string>
+				<string>Doodle Jump</string>
+			</array>
+			<key>PostNotification</key>
+			<string>me.shymemoriees.catpreferences/ReloadPrefs</string>
+		</dict>
+
+		<!-- Support Me -->
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Support Me</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Little Donation 🌺</string>
+			<key>subtitle</key>
+			<string>Helps Me To Pay For My Server</string>
+			<key>url</key>
+			<string>https://paypal.me/ShyMemoriees</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Feature Request? ✨</string>
+			<key>subtitle</key>
+			<string>Send Me An Email With Your Request</string>
+			<key>url</key>
+			<string>mailto:shymemoriees@yahoo.com?subject=Cat%20Feature%20Request</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Source Code 🌙</string>
+			<key>subtitle</key>
+			<string>Github</string>
+			<key>url</key>
+			<string>https://github.com/ShyMemoriees/Cat</string>
+		</dict>
+		<dict>
+			<key>cellClass</key>
+			<string>HBLinkTableCell</string>
+			<key>label</key>
+			<string>Found A Bug? 🌧</string>
+			<key>subtitle</key>
+			<string>Leave A Bug Report Here</string>
+			<key>url</key>
+			<string>https://github.com/ShyMemoriees/Cat/issues/new</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Icon Design</string>
+		</dict>
+		<dict>
+            <key>action</key>
+            <string>twittertaki</string>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>@74k1_</string>
+            <key>cellClass</key>
+            <string>HBTwitterCell</string>
+            <key>label</key>
+            <string>taki</string>
+            <key>user</key>
+            <string>74k1_</string>
+        </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Cat By ShyMemoriees, Made With ❤️</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+
+	</array>
+	<key>title</key>
+	<string>Cat</string>
+</dict>
+</plist>
